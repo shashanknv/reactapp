@@ -1,0 +1,18 @@
+.error-page {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.error-page h1 {
+  font-size: 5rem;
+  color: #ff6b81;
+}
+
+button {
+  background-color: #ff6b81;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.cake-form-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cake-form input {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #ff6b81;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
