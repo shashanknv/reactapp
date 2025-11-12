@@ -20,3 +20,44 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.cake-form-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cake-form input {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.upload-label {
+  display: inline-block;
+  background-color: #7b2ff7;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.upload-label input {
+  display: none;
+}
+
+.preview-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin: 15px auto;
+  border-radius: 10px;
+  border: 2px solid #eee;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
